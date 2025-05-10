@@ -3,7 +3,7 @@ import os
 
 #Pfade
 metadata_path = 'episode_metadata.csv'
-transcripts_path = '/Users/alexisarvanitidis/Documents/MasterThesis'  # Ordner, in dem deine Episode57.txt usw. liegen
+transcripts_path = '/Users/alexisarvanitidis/Documents/MasterThesis'  
 
 #1.Prüfen ob Metadateien existieren
 if not os.path.exists(metadata_path):
